@@ -16,7 +16,6 @@ library(knitr)
 ```
 #Loading and preprocessing the data
 ```{r loading data}
-setwd("C:/Users/y.amini/Desktop/rprog/Reproducible Research/Q2")
 AC <- read.csv("activity.csv", stringsAsFactors=FALSE)
 ```
 
